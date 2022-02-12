@@ -10,7 +10,7 @@ Starter repo borrowed from my template [create_treact_app](https://github.com/Pa
 ## WHERE CAN I SEE IT?
 ### **IMPORTANT**
 
-One API route in the documentation -- `https://api.shakepay.co/rates` -- did not have CORS enabled as of this development, and as such any request I made in the browser failed.  I fixed it by using this [Chrome Devtool](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc/related?hl=en-US).  As of now the hosted site is crashing without a similar fix, so in order to see this site you will need to install this plugin, whitelist my URL from the server or find another way to circumvent the CORS permissions.
+One API route in the documentation -- `https://api.shakepay.co/rates` -- did not have CORS enabled as of this development, and as such any request I made in the browser failed.  I fixed it by using this [Chrome Devtool](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc/related?hl=en-US).  As of now the hosted site is crashing without a similar fix, so in order to see this site you will need to install + enable this plugin, whitelist my URL from the server or find another way to circumvent the CORS permissions.
 
 Unfortunately I did not have time to add proper error handling to this, but this would be the case in a production app.
 
