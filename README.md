@@ -7,9 +7,15 @@ Starter repo borrowed from my template [create_treact_app](https://github.com/Pa
 - No SEO is needed for this assignment / project.  If it was, I'd use something like [Next.js](https://nextjs.org/).  
 - Will use Material UI for quick & easy good looking components.  Would ask many more questions + spend time with designs in a production setting before determining styling + UX strategy and tools.  A lot of styling code will be re-written in the absence of a proper design system, I'd usually extrapolate this shared styling code to something like a global [Theme](https://mui.com/customization/theming/) based on that design system.
 
-## NOTES:
+## WHERE CAN I SEE IT?
+### **IMPORTANT**
 
-- I was having CORS issues with `https://api.shakepay.co/rates` while developing on `localhost` with Chrome, Brave and FireFox.  I solved it via [this](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc/related?hl=en-US) plugin, you might also require a similar fix to run this locally.
+One API route in the documentation -- `https://api.shakepay.co/rates` -- did not have CORS enabled as of this development, and as such any request I made in the browser failed.  I fixed it by using this [Chrome Devtool](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc/related?hl=en-US).  As of now the hosted site is crashing without a similar fix, so in order to see this site you will need to install this plugin, whitelist my URL from the server or find another way to circumvent the CORS permissions.
+
+Unfortunately I did not have time to add proper error handling to this, but this would be the case in a production app.
+
+[Once you have the CORS issues sorted, you can see it Here!](https://patrickmclennan.github.io/)
+
 
 ## HOW TO RUN:
 

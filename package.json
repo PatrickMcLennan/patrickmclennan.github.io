@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "patrickmclennan.github.io",
+  "homepage": "https://www.patrickmclennan.github.io",
   "scripts": {
     "webpack:dev": "webpack --config ./webpack/webpack.dev.js",
     "webpack:prod": "webpack --config ./webpack/webpack.prod.js",
